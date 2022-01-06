@@ -19,6 +19,10 @@ const config = {
           },
         },
       },
+      backgroundImage: {
+        'curve-desktop': 'url(/assets/bg-curve-desktop.svg)',
+        'curve-mobile': 'url(/assets/bg-curve-mobile.svg)',
+      },
       fontFamily: {
         raleway: ['Raleway', 'sans-serif'],
         'open-sans': ['Open Sans', 'sans-serif'],
