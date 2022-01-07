@@ -1,7 +1,9 @@
 <footer>
-  <div class="bg-cstm-primary-dark-blue p-10 text-white text-xl">
-    <div>
-      <img src="/assets/logo-white.svg" alt="logo" class="my-10" />
+  <div
+    class="bg-cstm-primary-dark-blue p-10 md:p-16 text-white text-xl md:grid md:grid-cols-4 md:place-items-center"
+  >
+    <div class="md:place-self-start">
+      <img src="/assets/logo-white.svg" alt="logo" class="my-10 md:my-0" />
       <div class="my-5">
         <div class="flex items-center gap-5">
           <img src="/assets/icon-phone.svg" alt="phone" />
@@ -13,7 +15,7 @@
         </div>
       </div>
     </div>
-    <ul class="flex flex-col gap-5 my-24">
+    <ul class="flex flex-col gap-5 my-24 md:my-0">
       <li class="hover:text-cstm-primary-desaturated-blue cursor-pointer">
         About Us
       </li>
@@ -27,7 +29,7 @@
         Blog
       </li>
     </ul>
-    <ul class="flex flex-col gap-5 my-24">
+    <ul class="flex flex-col gap-5 my-24 md:my-0">
       <li class="hover:text-cstm-primary-desaturated-blue cursor-pointer">
         Contact Us
       </li>
@@ -57,7 +59,10 @@
     </div>
   </div>
 
-  <!-- <div class="flex justify-center py-5">
+  <!-- Coded by Waleed Mumtaz -->
+  <div
+    class="flex justify-center py-5 font-raleway bg-cstm-primary-dark-blue text-white"
+  >
     <div class="text-center">
       <p>
         Challenge by
@@ -76,5 +81,5 @@
         >.
       </p>
     </div>
-  </div> -->
+  </div>
 </footer>

@@ -20,6 +20,3 @@
 <Header />
 <MainContent />
 <Footer />
-
-<style>
-</style>
